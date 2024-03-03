@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tangetia'24 | QUATERNION</title>
+    <link rel="shortcut icon" href="assets/user.gif" type="image/x-icon">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./assets/css/output.css">
+</head>
+
+<body>
+    <section class="w-full h-screen flex items-center bg-[#C5CDFF] justify-center  px-24">
+        <div class="container w-full md:h-3/4 flex gap-1">
+
+
+            <div class="event-info p-4 flex flex-col items-start w-2/6 bg-[#FCFEF1] border-2 border-black rounded-lg">
+                <div class="logo-box border-b-2 border-black flex items-center gap-2">
+                    <img src="assets/logo.jpg" alt=""
+                        class="logo rounded-full border-2 border-red-600 w-[40px] h-[40px] my-2">
+                    <h1 class="text-md font-semibold text-blue-600 "><span
+                            class="text-red-600 text-2xl">Tangetia'24</span> QUATERNION | ARSD</h1>
+                </div>
+
+                <p class="font-medium text-md text-black my-4">The Mathematics Society, Atma Ram Sanatan Dharma College,
+                    is one of the registered societies of our
+                    college. Tangentia aims to provide a platform to convert conventional beliefs and habits about
+                    Mathematics and Technology to the best of today's interest.</p>
+                <div class="social flex items-center justify-between gap-2 ">
+                    <a href="#"
+                        class="w-[40px] h-[40px] text-lg bg-black text-[#FCFEF1] rounded-full flex items-center justify-center hover:text-black hover:border-2 hover:border-black hover:bg-[#FCFEF1] duration-300 "
+                        title="email"><i class='bx bx-envelope'></i></a>
+                    <a href="#"
+                        class="w-[40px] h-[40px] text-lg bg-black text-[#FCFEF1] rounded-full flex items-center justify-center hover:text-black hover:border-2 hover:border-black hover:bg-[#FCFEF1] duration-300 "
+                        title="facebook"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"
+                        class="w-[40px] h-[40px] text-lg bg-black text-[#FCFEF1] rounded-full flex items-center justify-center hover:text-black hover:border-2 hover:border-black hover:bg-[#FCFEF1] duration-300 "
+                        title="instagram"><i class='bx bxl-instagram-alt'></i></a>
+                    <a href="#"
+                        class="w-[40px] h-[40px] text-lg bg-black text-[#FCFEF1] rounded-full flex items-center justify-center hover:text-black hover:border-2 hover:border-black hover:bg-[#FCFEF1] duration-300 "
+                        title="linkedin"><i class='bx bxl-linkedin'></i></a>
+                </div>
+
+            </div>
+            <div
+                class="links flex flex-col justify-start items-start h-full md:w-4/6 p-4 border-2 border-black rounded-lg">
+                <h1 class="flex items-center justify-center gap-1 text-lg font-medium"><i
+                        class='bx bx-link w-[40px] h-[40px] text-lg bg-[#FCFEF1] text-black rounded-full flex items-center justify-center hover:text-[#FCFEF1] hover:bg-black duration-300'></i>
+                    Links</h1>
+                <div class="events-boxes h-full flex justify-between items-center w-full my-4">
+                    <i (click)="clicked()"
+                        class='bx bx-left-arrow-alt w-[40px] h-[40px] text-lg text-[#FCFEF1]  border-2 border-black shrink-0 bg-black rounded-full flex items-center justify-center  hover:text-black hover:bg-[#FCFEF1] duration-300'></i>
+                    <div class="events-box h-full w-full flex gap-2 overflow-x-scroll px-4 gradient-mask-l-90 select-none scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar scrollbar-thumb-black scrollbar-track-transparent" id="event-box">
+                        <div
+                            class="event-box shrink-0 h-full bg-[#FCFEF1] w-[260px] border-2 border-black rounded-lg overflow-hidden">
+                            <img src="assets/events/event2.jpeg"
+                                class="w-full h-[260px] object-cover gradient-mask-b-90" alt="event-img">
+                            <div class="event-info w-full px-2 flex flex-col items-start">
+
+                                <h1 class="event-title text-lg font-medium">Event Name</h1>
+                                <p class="event-keyword text-sm my-2">Event Keywords</p>
+                                <div class="event-btn w-full flex justify-between text-sm font-medium my-2 ">
+                                    <a href="#" class="py-1 px-2 rounded-lg bg-black border-2 border-black text-[#FCFEF1] duration-300 hover:bg-[#FCFEF1] hover:text-black cursor-pointer">Register Now!</a>
+                                    <p class="py-1 px-2 rounded-lg bg-[#FCFEF1] border-2 border-black duration-300 hover:bg-black hover:text-[#FCFEF1] cursor-pointer">Prize</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div
+                            class="event-box shrink-0 h-full bg-[#FCFEF1] w-[260px] border-2 border-black rounded-lg overflow-hidden">
+                            <img src="assets/events/event2.jpeg"
+                                class="w-full h-[260px] object-cover gradient-mask-b-90" alt="event-img">
+                            <div class="event-info w-full px-2 flex flex-col items-start">
+
+                                <h1 class="event-title text-lg font-medium">Event Name</h1>
+                                <p class="event-keyword text-sm my-2">Event Keywords</p>
+                                <div class="event-btn w-full flex justify-between text-sm font-medium my-2 ">
+                                    <a href="#" class="py-1 px-2 rounded-lg bg-black border-2 border-black text-[#FCFEF1] duration-300 hover:bg-[#FCFEF1] hover:text-black cursor-pointer">Register Now!</a>
+                                    <p class="py-1 px-2 rounded-lg bg-[#FCFEF1] border-2 border-black duration-300 hover:bg-black hover:text-[#FCFEF1] cursor-pointer">Prize</p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div
+                            class="event-box shrink-0 h-full bg-[#FCFEF1] w-[260px] border-2 border-black rounded-lg overflow-hidden">
+                            <img src="assets/events/event2.jpeg"
+                                class="w-full h-[260px] object-cover gradient-mask-b-90" alt="event-img">
+                            <div class="event-info w-full px-2 flex flex-col items-start">
+
+                                <h1 class="event-title text-lg font-medium">Event Name</h1>
+                                <p class="event-keyword text-sm my-2">Event Keywords</p>
+                                <div class="event-btn w-full flex justify-between text-sm font-medium my-2 ">
+                                    <a href="#" class="py-1 px-2 rounded-lg bg-black border-2 border-black text-[#FCFEF1] duration-300 hover:bg-[#FCFEF1] hover:text-black cursor-pointer">Register Now!</a>
+                                    <p class="py-1 px-2 rounded-lg bg-[#FCFEF1] border-2 border-black duration-300 hover:bg-black hover:text-[#FCFEF1] cursor-pointer">Prize</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <i (click)="clicked()"
+                        class='bx bx-right-arrow-alt w-[40px] h-[40px] text-lg text-[#FCFEF1] border-2 border-black shrink-0 bg-black rounded-full flex items-center justify-center  hover:text-black hover:bg-[#FCFEF1] duration-300'></i>
+                </div>
+            </div>
+        </div>
+        <!-- <footer class="absolute bottom-7 z-10 text-xl left-10">
+            <a href=""><i class='bx bxs-heart' ></i></a>
+        </footer> -->
+    </section>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
